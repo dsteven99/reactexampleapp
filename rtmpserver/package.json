@@ -1,14 +1,14 @@
 {
-  "name": "api",
+  "name": "rtmpserver",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server -H 192.168.1.82 -p 3001 -w db.json"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.16.1"
+    "node-media-server": "^2.2.4"
   }
 }
